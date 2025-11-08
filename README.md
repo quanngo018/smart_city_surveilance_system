@@ -52,10 +52,10 @@ streamlit run app.py
 ```
 web/
 ├── app.py              # Entry point
-├── config/             # Cấu hình
-├── pages/              # Stats, Main, Settings
-├── ui/                 # Theme, components
-├── utils/              # Logger, data loader, helpers
+├── config/             # Cấu hình tập trung
+├── pages/              # Stats, Main, Settings pages
+├── ui/                 # Theme system (modular CSS)
+├── utils/              # Logger, data loader, map utils
 └── data/               # nodes.csv, events.csv
 ```
 
