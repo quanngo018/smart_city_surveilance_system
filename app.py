@@ -74,6 +74,7 @@ initialize_app_state()
 with st.sidebar:
     st.title(APP_CONFIG['title'])
     st.caption(f"Version {APP_CONFIG['version']}")
+    st.caption("Built with Streamlit")
     
     render_divider()
     

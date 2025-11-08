@@ -1,4 +1,4 @@
 node_id,name,lat,lon,status,num_cameras,assists_others
 NODE 001,HH1A Linh Đàm,20.96395431594556,105.82611718462478,online,3,no
 NODE 002,Thư viện Tạ Quang Bửu,21.00487489071966,105.8441302709524,online,3,yes
-NODE 003,Sân vận động,21.00205037901228,105.84783986370431,online,1,yes
+NODE 003,Sân vận động,21.00205037901228,105.84783986370432,online,2,yes
