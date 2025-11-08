@@ -1,0 +1,54 @@
+# ============================================================================
+# Smart City Monitoring System - Python Dependencies
+# ============================================================================
+# Python Version: 3.8+
+# Last Updated: 2025-11-08
+# ============================================================================
+
+# ----------------------------------------------------------------------------
+# CORE FRAMEWORK
+# ----------------------------------------------------------------------------
+streamlit>=1.28.0              # Web application framework
+
+# ----------------------------------------------------------------------------
+# DATA PROCESSING & ANALYSIS
+# ----------------------------------------------------------------------------
+pandas>=2.0.0                  # Data manipulation and analysis
+numpy>=1.24.0                  # Numerical computing
+
+# ----------------------------------------------------------------------------
+# VISUALIZATION
+# ----------------------------------------------------------------------------
+# Interactive Maps
+folium>=0.14.0                 # Leaflet maps for Python
+streamlit-folium>=0.15.0       # Streamlit component for Folium
+
+# Charts & Graphs
+plotly>=5.17.0                 # Interactive plotting library
+
+# ----------------------------------------------------------------------------
+# UI ENHANCEMENTS
+# ----------------------------------------------------------------------------
+streamlit-autorefresh>=1.0.0   # Auto-refresh functionality
+
+# ----------------------------------------------------------------------------
+# DEVELOPMENT & DEBUGGING (Optional)
+# ----------------------------------------------------------------------------
+# Uncomment for development
+# mypy>=1.5.0                  # Static type checker
+# black>=23.0.0                # Code formatter
+# flake8>=6.0.0                # Linter
+# pytest>=7.4.0                # Testing framework
+
+# ----------------------------------------------------------------------------
+# NOTES
+# ----------------------------------------------------------------------------
+# Installation:
+#   pip install -r requirements.txt
+#
+# Force reinstall:
+#   pip install -r requirements.txt --force-reinstall
+#
+# Upgrade all:
+#   pip install -r requirements.txt --upgrade
+# ============================================================================

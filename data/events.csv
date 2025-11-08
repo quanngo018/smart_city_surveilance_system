@@ -1,0 +1,6 @@
+event_id,timestamp,node_id,location,event_type,severity,description,status
+EVT_001,2025-11-03 08:15:23,NODE_001,KDT Linh Đàm,suspicious_gathering,high,Phát hiện nhóm 5-6 người tụ tập gần khu vực cửa hàng tiện lợi. Các đối tượng có hành vi nghi vấn và liên tục quan sát xung quanh.,pending
+EVT_002,2025-11-03 08:22:45,NODE_002,Thư viện Tạ Quang Bửu,person_fall,critical,Một người đàn ông trung niên bị ngã trên vỉa hè. Người này đang nằm bất động và có thể cần hỗ trợ y tế khẩn cấp.,pending
+EVT_003,2025-11-06 07:20:45,NODE_002,Sân vận động,person_fall,high,Anh 7 vấp cỏ.,pending
+
+

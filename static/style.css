@@ -1,0 +1,71 @@
+/* Smart City Monitoring System - Static CSS */
+/* This loads BEFORE page content to prevent black flash */
+
+/* CRITICAL: Set white background IMMEDIATELY */
+html {
+    background-color: #FFFFFF !important;
+}
+
+body {
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Prevent any transitions during page load */
+*, *::before, *::after {
+    transition: none !important;
+    animation-duration: 0s !important;
+}
+
+/* Force white on all major containers */
+#root,
+[data-testid="stApp"],
+[data-testid="stAppViewContainer"],
+.main,
+.block-container {
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+}
+
+/* Header and top elements */
+header[data-testid="stHeader"] {
+    background-color: #FFFFFF !important;
+}
+
+[data-testid="stDecoration"] {
+    display: none !important;
+    background-color: #FFFFFF !important;
+}
+
+[data-testid="stToolbar"] {
+    background-color: #FFFFFF !important;
+}
+
+[data-testid="stStatusWidget"] {
+    background-color: #FFFFFF !important;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #F5F5F5 !important;
+}
+
+section[data-testid="stSidebar"] * {
+    color: #000000 !important;
+}
+
+/* Remove footer and branding */
+footer {
+    visibility: hidden;
+}
+
+#MainMenu {
+    visibility: hidden;
+}
+
+/* Ensure iframes (maps) have white background */
+iframe {
+    background-color: #FFFFFF !important;
+}

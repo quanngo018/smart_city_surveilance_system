@@ -1,0 +1,9 @@
+# Logs Directory
+
+This directory contains application log files.
+
+Log files are automatically created when the application runs.
+
+- `app.log` - Main application logs
+- Format: `[TIMESTAMP] [LEVEL] [MODULE] - Message`
+- Levels: DEBUG, INFO, WARNING, ERROR, CRITICAL

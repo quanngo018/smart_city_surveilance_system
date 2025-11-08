@@ -1,0 +1,102 @@
+# ============================================================================
+# Smart City Monitoring System - Git Ignore File
+# ============================================================================
+
+# ----------------------------------------------------------------------------
+# Python
+# ----------------------------------------------------------------------------
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# ----------------------------------------------------------------------------
+# IDE & Editors
+# ----------------------------------------------------------------------------
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# ----------------------------------------------------------------------------
+# Streamlit
+# ----------------------------------------------------------------------------
+# Streamlit cache
+.streamlit/cache/
+
+# Streamlit secrets (NEVER commit!)
+.streamlit/secrets.toml
+
+# ----------------------------------------------------------------------------
+# Project Specific
+# ----------------------------------------------------------------------------
+# Logs
+logs/*.log
+*.log
+
+# Data backups
+data/*.bak
+data/*.backup
+backup/
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Test outputs
+test_output/
+*.test
+
+# ----------------------------------------------------------------------------
+# System Files
+# ----------------------------------------------------------------------------
+# Windows
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.directory
+
+# ============================================================================
+# END
+# ============================================================================

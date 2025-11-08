@@ -1,0 +1,35 @@
+# Streamlit Configuration for Smart City Monitoring System
+
+[theme]
+# Theme colors - Light/White theme
+primaryColor = "#4CAF50"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#000000"
+font = "sans serif"
+base = "light"
+
+[server]
+# Server settings
+headless = true
+port = 8503
+enableCORS = false
+enableXsrfProtection = true
+
+[browser]
+# Browser settings
+gatherUsageStats = false
+serverAddress = "localhost"
+serverPort = 8503
+
+[runner]
+# Runner settings
+magicEnabled = false
+fastReruns = true
+
+[client]
+# Client settings
+showErrorDetails = true
+toolbarMode = "minimal"
+
+# Note: Removed invalid config options
